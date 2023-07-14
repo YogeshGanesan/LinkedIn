@@ -1,0 +1,973 @@
+<!doctype html>
+<html>
+<head>
+<title> Linkedin-Profile</title>
+<link rel="stylesheet" href="./css/style3.css">
+<link rel="stylesheet" href="./icons/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<section class="overall">  
+ <header class="header-section">
+   <div class="container">
+     <div class="flex-container">
+	    <div class="flex-item-4">
+	      <div class="header-1 "> 
+		   <img src="image/Inimages.png" width="auto" height="34px">
+		   <input type="text" placeholder="Search" />
+		   <i class="fa fa-search" aria-hidden="true"></i>
+   	     </div>
+	  </div>
+    <!-- <div class="flex-item-2"></div> -->
+        		
+		
+       <div class="flex-item-6 addLine">
+	      <div class="header-2"> 
+		     <ul class=" space-evenly">
+			  <li class="hide"><a href="index.html" ><i class="fa fa-home all" aria-hidden="true" id="one"></i><p>Home</p><p class="empty"></p></a></li>
+			  <li class="over" style="padding-top:4px"><a href="#" class="over"><i class="fa fa-user all" aria-hidden="true" id="two" ></i> <p>My Network</p></a></li>
+			  <li  class="over"><a href="#" class="over"><i class="fa fa-suitcase all" aria-hidden="true" id="three"></i><p> Jobs </p></a></li>
+			  <li  class="over"><a href="#" class="over"><i class="fa fa-commenting-o all" aria-hidden="true" id="four"></i> <p>Messaging</p></a></li>
+			
+			 <li  class="over"><a href="#" class="over"><i class="fa fa-bell all" aria-hidden="true" id="five"></i><p>Notification</p></a></li>
+			
+			
+						
+			 
+			
+			<div class="drop-list">
+					 		 <li ><a href="#" class="over"><img src="image/user.jpeg" class="nav-dp"><p> Me <i class="fa fa-caret-down" aria-hidden="true" id="down-arrow"></i> </p> </a></li>
+
+     
+					 
+					 <!-- drop down starts -->
+					 <div class="drop-down-all">
+					     <div class="drop-down-account">
+					     <div class="account">
+					      <img src="image/user.jpeg" class="drop-down-profile-img">
+						 </div>
+						 <div class="drop-down-profile">
+						     <h3 class="drop-user-name">Yogesh G</h3>
+							 <p class="drop-user-role"> Front End Trainee</p>
+						 </div>
+					     </div>
+						 <div class="drop-down-button">
+						     <button type="button" class="drop-down-button1">View Profile</button>
+						 </div>
+						 <div class="my-account">
+						     <a href="#"><h4 id="my-account-1">Account</h4></a>
+							
+							 <i class="fa fa-square" aria-hidden="true" id="free-pay-1"><a href="#" class="no-pay">Try Premium for free</a></i><br>
+							 <a href="#"><p id="free-pay">Settings and Privacy</p></a>
+							 <a href="#"><p id="free-pay">Help</p></a>
+							 <a href="#"><p id="free-pay-3">Language</p></a>
+						 </div>
+						 <div class="manage">
+						     <a href="#"><h4 id="my-account-1">Manage</h4></a>
+							 <a href="#"><p id="free-pay">Posts & Activity</p></a>
+							 <a href="#"><p id="free-pay-3">Job Posting Account</p></a>
+						 </div>
+						 <div class="log-out"  onclick="logOut(event)">
+						     <a href="#">Sign Out</a>
+						 </div>
+					 </div>
+					 
+					 </a>
+					 </div>
+			
+			<!-- dropdown ends -->
+			 </ul>	 
+			 
+   	     </div>
+	  </div>
+        
+	   <div class="flex-item-2">
+	      <div class="header-3 ">
+		    <ul class="list ">
+              <li class="nav-end"><a href="#" class="over"><i class="fa fa-th" aria-hidden="true" id="seven"></i><p>For Business <i class="fa fa-caret-down" aria-hidden="true" id="down-arrow"></i> </p></a></li>
+		      <a href="#" class="second">Try Premium for<br> free</a>
+		   </ul> 	
+	      </div>
+	   </div>
+		
+	 </div>
+   </div>
+</header>
+
+
+
+<div class="info">
+   <div class="container">
+      <div class="flex-container">
+	  
+	     <div class="flex-item-8">
+		   <div class="banner">
+		   
+		   
+		     <div  class="background-image">
+		     
+			 
+			      <div class="profile-im">
+			         <a href="#" > <img src="image/user.jpeg" class="profile-dp"></a>
+			      </div>
+			         <a href="#" class="camera-icon"><i class="fa fa-camera" aria-hidden="true"></i></a>
+			 </div>
+			 
+			 <div class="edit-icon">
+			     <a href="#" class="edit-icon-js leftIcon" ><i class="fa fa-pencil" aria-hidden="true"></i></a>
+			
+			 <!-- edit starts -->
+			 
+			 
+
+<div class="edit-click">
+ <div class="edit-icon-profile">
+  
+     <div class="edit-intro">
+  
+      <div class="inner-padding">
+        <p>Edit intro</p>
+	   <a href="#" class="modelBox-edit-icon"> <i class="fa fa-times" aria-hidden="true"></i></a>
+	  </div>
+	  
+     </div>
+     
+	 
+	 
+	 <div class="basic-info">
+	  
+	  <p class="indicate">* Indicates required</p>
+	  <h3>Basic Info</h3>
+	 
+	 <div class="align-bottom">
+	  <p>First Name*</p>
+	  <input type="text" id="user-firstName-edit">
+	 </div>
+
+	 <div class="align-bottom">
+	  <p>Last Name*</p>
+	  <input type="text" id="user-lastName-edit">
+	 </div> 
+	  
+     <div class="align-bottom" id="user-headline-edit">
+	  <p>headline</p>
+	  <input type="text">
+	 </div>   
+	 
+	 
+	  <h3>Current position</h3>
+	 
+	 <div class="align-bottom">
+	  <p>position*</p>
+	  <input type="text" id="user-position-edit">
+	 </div> 
+	 
+	   <h3>Location</h3>
+	   
+	 <div class="align-bottom">
+	  <p>Country/Region*</p>
+	  <input type="text" id="user-country-edit">
+	 </div> 	 
+	 
+	 <div class="align-bottom">
+	  <p>City*</p>
+	  <input type="text" id="user-city-edit">
+	 </div> 	 	 
+
+	 <div class="align-bottom">
+	  <p>State*</p>
+	  <input type="text" id="user-state-edit">
+	 </div>	 
+	 
+	 </div>
+	
+	
+      <div class="edit-end"> 
+	     <div class="save-option">
+  
+           <button type="submit" class="edit-save-button" onClick="editinformation(event)">Save</button>
+  
+         </div>
+     </div>
+	 
+  
+  </div>
+  
+</div>
+			 
+</div>	
+	<!-- edit ends -->
+			 
+			 <div class="user-hint">
+			    <div class="name-logo">
+				<p class="user-profile-name" id="editFname">YOGESH <span id="editLname">G</span></p>
+				   <div class="companylogo-name">
+				     <img src="image/fabevy.jpg">
+				     <p>Fabevy</p>
+				   </div> 
+				</div>
+			   <p class="user-role" id="headline">FrontEnd Trainee</p>
+			   <p class="user-loc" ><span class="place-city" id="placeity">Chennai</span>,<span class="place-state" id="placestate">TamilNadu</span>,<span class="place-country" id="placeCoureg">India </span> <i class="fa fa-circle" aria-hidden="true"></i><span style="color:blue"> Contact info</span></p>
+			 
+			 
+			 </div>
+			 
+			 
+			 
+		 </div>
+		 
+		   <div class="banner-2">
+		   
+		   
+		   <div class="skills">
+			 
+			 <div class="skills-with-icon"> 
+			  <p class="topic-skill">Skills</p>
+			    <div class="add-skills">
+				 <a href="#" class="button-take-skill">Take skill quiz</a>
+				 <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+				 <a href="#" style="padding-right:0px"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+				</div>
+			 </div>
+			 <div class="html">
+			       <p><a href="#">HTML5</a></p>
+				<div class="html-flex">
+			        <img src="image/fabevy.jpg"><span>Trainee At Fabevy</span>
+			    </div>
+			 </div>
+			 
+			  <div class="css">
+			       <p><a href="#">Cascading Style Sheet (CSS)</a></p>
+				<div class="css-flex">
+			        <img src="image/fabevy.jpg"><span>Trainee At Fabevy</span>
+			    </div>
+			 </div>
+			 
+			  <div class="js">
+			       <p><a href="#">Javascript</a></p>
+				<div class="js-flex">
+			        <img src="image/fabevy.jpg"><span>Trainee At Fabevy</span>
+			    </div>
+			 </div>
+			 
+			 
+			 
+			 
+		  </div>
+		   
+		</div> 
+		
+		
+		
+		<div class="banner-3">
+		  <div class="experience">
+		   
+		      <div class="experience-with-icon"> 
+			  <p class="topic-experience">Experience</p>
+			    <div class="add-experience">
+				 
+				 <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+				
+				<!--  <div class="edit-icon"> -->
+				       <a href="#" class="edit-icon-js "> <i class="fa fa-pencil" aria-hidden="true"></i> </a>
+                 
+
+				    <!-- edit starts -->
+			 
+			 
+
+<div class="edit-click">
+ <div class="edit-icon-profile">
+  
+     <div class="edit-intro">
+  
+      <div class="inner-padding">
+        <p>Edit Experience</p>
+	   <a href="#" class="modelBox-edit-icon"> <i class="fa fa-times" aria-hidden="true"></i></a>
+	  </div>
+	  
+     </div>
+     
+	 
+	 
+	 <div class="basic-info">
+	  
+
+	 
+	 <div class="align-bottom">
+	  <p>Title*</p>
+	  <input type="text">
+	 </div>
+
+	 <div class="align-bottom">
+	  <p>Employment type*</p>
+	  <select id="employe-type">
+	    <option value="select">Please Select</option>
+	    <option value="full-time">Full-time</option>
+		<option value="part-time">Part-time</option>
+	    <option value="self-empolyed">Self-empolyed</option>
+		<option value="Internship">Internship</option>
+		<option value="trainee">Trainee</option>
+	  </select>
+	 </div> 
+	  
+     <div class="align-bottom">
+	  <p>Company Name*</p>
+	  <input type="text">
+	 </div>   
+	 
+	 <div class="align-bottom">
+	  <p>Location*</p>
+	  <input type="text">
+	 </div>
+	   
+	 <div class="align-bottom">
+	  <p>Location type</p>
+	  <select id="employe-type">
+	    <option value="select">Please Select</option>
+	    <option value="on-site">On-site</option>
+		<option value="hybird">Hybird</option>
+	    <option value="remote">Remote</option>
+	  </select>
+	 </div> 	 
+	 
+	 <div class="align-bottom">
+	  <p>City*</p>
+	
+	     <input type="checkbox" id="worked" name="currentWork" value="working">
+         <span> I am currently working in this role</span>
+	 </div> 	 	 
+
+	 <div class="align-bottom">
+	  <p>Start Date*</p>
+	  <select name="month" id="start-month-select">
+	     <option value="Month">Month</option>
+         <option value="January">January</option>
+         <option value="February">February</option>
+         <option value="March">March</option>
+         <option value="April">April</option>
+         <option value="May">May</option>
+         <option value="June">June</option>
+         <option value="July">July</option>
+         <option value="August">August</option>		 
+         <option value="September">September</option>
+         <option value="October">October</option>
+         <option value="November">November</option>
+         <option value="December">December</option>		   
+       </select>
+
+	   <select name="year" id="start-year-select">
+	     <option value="year">Year</option>
+	     <option value="2022">2022</option>
+         <option value="2021">2021</option>
+         <option value="2020">2020</option>
+         <option value="2019">2019</option>
+         <option value="2018">2018</option>
+         <option value="2017">2017</option>
+         <option value="2016">2016</option>
+         <option value="2015">2015</option>
+         <option value="2014">2014</option>		 
+         <option value="2013">2013</option>
+         <option value="2012">2012</option>
+		   
+        </select>
+
+	   
+	 </div>	
+
+     <div class="align-bottom">
+	  <p>Industry*</p>
+	  <input type="text">
+	 </div>
+   
+   	 <div class="form-controlss form-control">
+	     <h3 style="padding-bottom:6px">Skills</h3>
+	     <p>We recommend adding your top 5 used in this experience.They'll also apper in your Skills section</p>
+	  <form action="" id="myFormId">
+      <a href="#" class="add-skills-in-edu" id="addskillbtn"><i class="fa fa-plus" aria-hidden="true"></i><span>Add Skills</span></a>
+      
+	  
+	  <div id="skillitems"></div>
+	  
+	  <div class="select_btn">
+		<span class="btn">HTML</span>
+		<span class="btn">CSS</span>
+		<span class="btn">Javascript</span>
+		<span class="btn">PHP</span>
+		<span class="btn">Java</span>
+		<span class="btn">C++</span>
+		<span class="btn">Oops</span>
+		</div>
+	 </form>
+	 
+		
+	</div>	
+	 
+	 
+	 </div>
+	
+	
+      <div class="edit-end"> 
+	     <div class="save-option">
+  
+           <button type="submit" class="edit-save-button">Save</button>
+  
+         </div>
+     </div>
+	 
+  
+  </div>
+  
+</div>
+			 
+<!-- </div> -->	
+	<!-- edit ends -->
+
+				
+				
+				
+				
+				
+				
+				</div>
+			 </div>
+			 
+			 <div class="company-name">
+			    <div class="company-image">
+			     <img src="image/fabevy.jpg">
+				</div>
+			    <div class="exp-details">
+				 <h3>FrontEnd Trainee</h3>
+				 <p class="exp-para">Fabevy Full-Time</p>
+				 <p class="exp-para">Nov 2022-Present-6.months</p>
+				 <p class="exp-para">Chennai TamilNadu India Contact info</p>
+				 <p class="exp-para-2">Skills:HTML5,Cascading Style Sheet (CSS),Javascript</p>
+				
+				
+				
+				</div>
+			 
+			 
+			 </div>
+		
+		  </div>
+		 </div>
+		   
+		   
+		   
+		  <div class="banner-3">
+		  <div class="experience">
+		   
+		      <div class="experience-with-icon"> 
+			  <p class="topic-experience">Education</p>
+			    <div class="add-experience">
+				 
+				 <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+				 
+				 
+				
+				 				<!--  <div class="edit-icon"> -->
+				       <a href="#" class="edit-icon-js "> <i class="fa fa-pencil" aria-hidden="true"></i> </a>
+                 
+
+				    <!-- edit starts -->
+			 
+			 
+
+<div class="edit-click">
+ <div class="edit-icon-profile">
+  
+     <div class="edit-intro">
+  
+      <div class="inner-padding">
+        <p>Edit education</p>
+	   <a href="#" class="modelBox-edit-icon"> <i class="fa fa-times" aria-hidden="true"></i></a>
+	  </div>
+	  
+     </div>
+     
+	 
+	 
+	 <div class="basic-info">
+	  
+	  <p class="indicate">* Indicates required</p>
+	
+	 
+	 <div class="align-bottom">
+	  <p>School*</p>
+	  <input type="text" id="user-School-Name">
+	 </div>
+
+	 <div class="align-bottom">
+	  <p>Degree*</p>
+	  <input type="text" id="user-Degree-Name">
+	 </div> 
+	  
+     <div class="align-bottom">
+	  <p>Field of Study*</p>
+	  <input type="text" id="user-Study-Name">
+	 </div>   
+	 
+	 <div class="align-bottom">
+	  <p>Start date</p>
+	
+	  <select name="month" id="start-month-select">
+	     <option value="Month">Month</option>
+         <option value="January">January</option>
+         <option value="February">February</option>
+         <option value="March">March</option>
+         <option value="April">April</option>
+         <option value="May">May</option>
+         <option value="June">June</option>
+         <option value="July">July</option>
+         <option value="August">August</option>		 
+         <option value="September">September</option>
+         <option value="October">October</option>
+         <option value="November">November</option>
+         <option value="December">December</option>		   
+       </select>
+	   
+	   <select name="year" id="start-year-select">
+	     <option value="year">Year</option>
+	     <option value="2022">2022</option>
+         <option value="2021">2021</option>
+         <option value="2020">2020</option>
+         <option value="2019">2019</option>
+         <option value="2018">2018</option>
+         <option value="2017">2017</option>
+         <option value="2016">2016</option>
+         <option value="2015">2015</option>
+         <option value="2014">2014</option>		 
+         <option value="2013">2013</option>
+         <option value="2012">2012</option>
+		   
+        </select>	   
+
+	   
+	 </div> 
+	 
+	 <div class="align-bottom">
+	  <p>End date</p>
+	 <select name="month" id="end-month-select">
+	     <option value="Month">Month</option>
+         <option value="January">January</option>
+         <option value="February">February</option>
+         <option value="March">March</option>
+         <option value="April">April</option>
+         <option value="May">May</option>
+         <option value="June">June</option>
+         <option value="July">July</option>
+         <option value="August">August</option>		 
+         <option value="September">September</option>
+         <option value="October">October</option>
+         <option value="November">November</option>
+         <option value="December">December</option>		   
+       </select>
+	   
+	   <select name="year" id="end-year-select">
+	     <option value="year">Year</option>
+	     <option value="2022">2022</option>
+         <option value="2021">2021</option>
+         <option value="2020">2020</option>
+         <option value="2019">2019</option>
+         <option value="2018">2018</option>
+         <option value="2017">2017</option>
+         <option value="2016">2016</option>
+         <option value="2015">2015</option>
+         <option value="2014">2014</option>		 
+         <option value="2013">2013</option>
+         <option value="2012">2012</option>
+		   
+        </select>	   
+
+	 </div> 	 
+	 
+	 <div class="align-bottom">
+	  <p>Grade</p>
+	  <input type="text" id="user-Grade-Name">
+	 </div>
+	 
+	 <div class="align-bottom">
+	  <p>Activities and societies</p>
+	  <textarea rows="4" cols="50" placeholder="Ex.Alpha Phi Omege,Marching Band,Volleyball"></textarea>
+	 </div>	 
+	 
+	 <div class="align-bottom">
+	  <p>Description</p>
+	  <textarea rows="4" cols="50"></textarea>
+	 </div>	 
+	 
+	 <div class="form-controlss form-control">
+	     <h3 style="padding-bottom:6px">Skills</h3>
+	     <p>We recommend adding your top 5 used in this experience.They'll also apper in your Skills section</p>
+	  <form action="" id="myFormId">
+      <a href="#" class="add-skills-in-edu" id="addskillbtn"><i class="fa fa-plus" aria-hidden="true"></i><span>Add Skills</span></a>
+      
+	  
+	  <div id="skillitems"></div>
+	  
+	  <div class="select_btn">
+		<span class="btn">HTML</span>
+		<span class="btn">CSS</span>
+		<span class="btn">Javascript</span>
+		<span class="btn">PHP</span>
+		<span class="btn">Java</span>
+		<span class="btn">C++</span>
+		<span class="btn">Oops</span>
+		</div>
+	 </form>
+	 
+		
+	</div>					
+						
+					
+	 
+	 
+	 </div>
+
+					
+
+	 
+	
+	
+      <div class="edit-end"> 
+	     <div class="save-option">
+  
+           <button type="submit" class="edit-save-button">Save</button>
+  
+         </div>
+     </div>
+	 
+  
+  </div>
+  
+</div>
+			 
+<!-- </div> -->	
+	<!-- edit ends -->
+
+				 
+				 
+				</div>
+			 </div>
+			 
+			 <div class="company-name addedu">
+			    <div class="company-image-1">
+			     <img src="image/anna.jpg">
+				</div>
+			    <div class="exp-details">
+				 <h3 class="university">Anna University</h3>
+				 <p class="exp-para degree">Bachelor's degree,Computer Science</p>
+				 <p class="exp-para year-complete">2018-2022</p>
+                 <p class="exp-para-2">CGPA:<span class="mark-socred">8.35</span></p>
+				</div>
+			 
+			 
+			 </div>
+			 
+			  <div class="company-name addedu">
+			    <div class="company-image-2">
+			     <img src="image/krp.png">
+				</div>
+			    <div class="exp-details">
+				 <h3 class="user-school">K.R.P Matriculation HigherSecondary School</h3>
+				 <p class="exp-para school-study">Higher-Secondary</p>
+				 <p class="exp-para school-year">2017-2018</p>
+                 <p class="exp-para-2">Cutoff:<span class="school-mark">183.25</span></p>
+				</div>
+			 
+			 
+			 </div>
+		
+		  </div>
+		 </div>
+		 
+		 
+		 <div class="banner-3">
+		  <div class="experience">
+		   
+		      <div class="experience-with-icon"> 
+			     <p class="topic-experience">Intrests</p>
+			  </div>
+			 
+			  <div class="experience-with-icon-1"> 
+			     <p>Companys</p>
+			  </div>
+			  
+			  
+			<div class="company-flex-item">
+			 <div class="company-name">
+			    <div class="company-image">
+			     <img src="image/fabevy.jpg">
+				</div>
+			    <div class="exp-details ">
+				
+				 <p>Fabevy</p>
+				 <p class="exp-para">5,675 followers</p>
+				<p class="exp-para-3"> <a href="#" class="following-button">following</a></p>
+	
+				
+				
+				
+				</div>
+			 
+			 
+			 </div>
+			 
+			 
+			  <div class="company-name padding-left">
+			    <div class="company-image">
+			     <img src="image/krp.png">
+				</div>
+			    <div class="exp-details ">
+				
+				 <p>K.R.P School</p>
+				 <p class="exp-para">1,075 followers</p>
+				<p class="exp-para-3"> <a href="#" class="following-button">following</a></p>
+	
+				
+				
+				
+				</div>
+			 
+			 
+			 </div>
+			 
+			</div> 
+			 
+		
+		  </div>
+		 </div>
+		 
+		 
+		 
+		 <div class="banner-5">
+		 
+		  <div class="various-detail">
+		  
+		    <div class="list-1-details">
+			  <li><a href="#">About</a></li>
+			  <li><a href="#">Community Guidelines</a></li>
+			  <li><a href="#">Privacy & Terms</a></li>
+			  <li><a href="#">Safe Solution</a></li>
+			  <li><a href="#">Safe Center</a></li>
+			
+		    </div>
+		  
+		    <div class="list-1-details">
+			  <li><a href="#">Accessibility</a></li>
+			  <li><a href="#">Careers</a></li>
+			  <li><a href="#">Ad Choices</a></li>
+			  <li><a href="#">Mobile</a></li>
+			</div>
+			
+			 <div class="list-1-details">
+			  <li><a href="#">Talent Solutions</a></li>
+			  <li><a href="#">Marketing Solutions</a></li>
+			  <li><a href="#">Advetising</a></li>
+			  <li><a href="#">Small Business</a></li>
+			</div>
+		  
+		     <div class="list-1-details">
+			      
+				  
+				 <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+				
+			 
+                 
+				  <a href="#" style="color:black;">Questions?</a><br><span>Visit our Help Center</span></li>
+				
+				  
+				  
+			  <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a> <a href="#" style="color:black;">Manage your account and privacy</a><br><span>Go to your Setting</span></li>
+			  <li><a href="#"><i class="fa fa-shield" aria-hidden="true"></i></a> <a href="#" style="color:black;">Recommendation transparency</a><br><span>Learn more about Recommended Content</span></li>
+			  
+			</div>
+		 
+		  </div>
+		 
+		 </div>
+		 
+		 
+    </div>
+		   
+		 <div class="flex-item-4">
+		  <div class="banner-6">
+		  
+		     <div class="edit-profile">
+			 
+			  <div class="edit-profile-url">
+			    <p>Edit public profile & URL</p>
+			    <i class="fa fa-question-circle" aria-hidden="true"></i>
+			  </div>
+			  
+			  <div class="add-another-language">
+			    <p>Add profile in another language</p>
+			    <i class="fa fa-question-circle" aria-hidden="true"></i>
+		     </div>
+			 
+			 
+			 
+			 </div>
+			</div> 
+		  
+		     
+			 
+			 <!-- Ad -->
+			  <div class="banner-7">
+			     <div class="edit-ad">
+			  
+			 
+				  <div class="ad-flex-flexFirst">
+				    
+				    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+					<p>Ad</p>
+				  </div>
+				  <div class="ad-nonflex">
+				     <p>Yogesh,unlock your potential with LinkedIn Premium</p>
+				      <i class="fa fa-user-circle all" aria-hidden="true"></i>
+				      <img src="image/keyimages.png">			  
+				  </div>
+				  <div class="ad-nonflex-end">
+				     <p>See who's viewed your profile in the last <br>90 days</p>
+				     <span><button type="button">Try for Free</button></span>
+				      			  
+				  </div>
+				  
+				  
+				  
+				 
+				
+	     </div>
+	   </div>
+	   <!-- Ad-end -->
+		  
+		  
+		  <div class="banner-7">
+		    <div class="people-also-viewed">
+			  <div class="people-also-viewed-class1">
+			   <h4>People also viewed</h4>			 
+			  </div>
+			  
+			  
+			  
+			<div class="people-also-viewed-class2 person-2">
+	             <i class="fa fa-user-circle all" aria-hidden="true" class="user-ico"></i>		   		
+                 <div class="people-also-viewed-class3" >
+				 <p class="viewed-user-1">Rakesh . <span> 1st </span></p>
+				 <p class="viewer-det">Computer Science Engineering|Graphics Designer</p>
+				  <a href="#" class="connect"><i class="fa fa-telegram" aria-hidden="true"></i> Message</a>
+				 </div>
+					
+			  </div>
+			
+			 <div class="people-also-viewed-class2 person-2">
+	             <i class="fa fa-user-circle all" aria-hidden="true" class="user-ico"></i>		   		
+                 <div class="people-also-viewed-class3" >
+				 <p class="viewed-user-1">Viswanath Siva . <span> 2nd </span></p>
+				 <p class="viewer-det">Electrical & Electronics Engineering|Software Developer</p>
+				  <a href="#" class="connect"><i class="fa fa-telegram" aria-hidden="true"></i> Message</a>
+				 </div>
+					
+			  </div>
+			  
+			  <div class="people-also-viewed-class2 person-2">
+	             <i class="fa fa-user-circle all" aria-hidden="true" class="user-ico"></i>		   		
+                 <div class="people-also-viewed-class3" >
+				 <p class="viewed-user-1">Siva . <span> 3rd </span></p>
+				 <p class="viewer-det">Computer Science Engineering|Embeded Engineer</p>
+				  <a href="#" class="connect"><i class="fa fa-telegram" aria-hidden="true"></i> Message</a>
+				 </div>
+					
+			  </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</div>
+		  </div>
+		  
+		  
+		  <div class="banner-7">
+		    <div class="people-also-viewed">
+			  <div class="people-also-viewed-class1">
+			   <h4>People may you know</h4>			 
+			  </div>
+			  
+			  
+			  
+			<div class="people-also-viewed-class2 person-2">
+	             <i class="fa fa-user-circle all" aria-hidden="true" class="user-ico"></i>		   		
+                 <div class="people-also-viewed-class3" >
+				 <p class="viewed-user-1">Karthik.</p>
+				 <p class="viewer-det"> Traniee in FrontEnd|Fabevy</p>
+				  <a href="#" class="connect"><i class="fa fa-telegram" aria-hidden="true"></i> Message</a>
+				 </div>
+					
+			  </div>
+			
+			 <div class="people-also-viewed-class2 person-2">
+	             <i class="fa fa-user-circle all" aria-hidden="true" class="user-ico"></i>		   		
+                 <div class="people-also-viewed-class3" >
+				 <p class="viewed-user-1">Dhinagar.</p>
+				 <p class="viewer-det">Computer Science Engineering|Software Developer</p>
+				  <a href="#" class="connect"><i class="fa fa-telegram" aria-hidden="true"></i> Message</a>
+				 </div>
+					
+			  </div>
+			  
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</div>
+		  </div>
+		  
+		  
+		  
+		  
+		  </div>
+		 
+		 
+		 
+		 
+		 
+		 
+		 </div>
+		 
+   
+    </div>
+ </div>	
+ 
+
+
+
+
+
+
+
+
+
+</section>
+
+<div class="blur">
+</div>
+
+
+
+
+ <script type="text/javascript"   src="js/users.js"></script> 
+</body>
+</html>

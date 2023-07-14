@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title> Login-Page</title>
+<link rel="stylesheet" href="./css-main/main.css">
+<link rel="stylesheet" href="./css-main/add.css">
+</head>
+
+<body>
+	<div class="page">
+		<img class="linkedin-img" src="image/linkedin-logo (1).jpg">
+	</div>
+<section>
+	<div class="user_forms">
+		<form id="form">
+			<div class="about">
+				<h2>Sign in</h2>
+				<p>stay updates on your professional world</p>
+			</div>
+				<p class="error" >Please check your Inputs</p>
+			<div class="form_group">
+				<input type="Email" type="tel" name="user_name" placeholder="Email or phone" class="form_control" id="mail"/>
+				<p class="error_msg">Enter Your Email</p> 
+			</div>
+			<div class="form_group">
+				<input type="password" name="password" placeholder="Enter your password" id="password" class="form_control" />
+				<span id="pass_show" onclick="show()">show</span>
+				 <p class="error_msg">Enter Your Password </p> 
+			</div>
+			<a href="#" class="forget">Forget password?</a>
+			<div class="user_sign">
+				<button type="button" onclick="onSignUp()" class="btn">Sign in</button>
+				<p>or</p>
+				<button type="button"  class="btn1">New to Linkedin? join </button>
+			</div>
+		
+		</form>
+	</div>
+	
+	
+		
+		
+</section>
+
+<!-- <script type="text/javascript"   src="js/main.js"></script> -->
+ <script type="text/javascript"   src="js/login.js"></script>  
+</body>
+</html>

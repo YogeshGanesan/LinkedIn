@@ -1,0 +1,126 @@
+.page h3{
+	color:blue;
+	margin:10px 50px;
+	font-size:30px;
+}
+.page i{
+	background-color:blue;
+	color:white;
+}
+.user_forms{
+	width:350px;
+	padding:10px 15px;
+	
+	 box-shadow:0px 0px 10px  0.1px #0000001a; 
+	border-radius:5px;
+	margin:100px auto 0;
+}
+.about h2{
+	padding-top:10px;
+	font-weight:200;
+}
+.about p{
+	font-size:15px;
+	color:gray;
+	line-height:20px;
+	margin-bottom:20px;
+}
+.form_control{
+	width:100%;
+	border-radius:5px;
+	height:40px;
+	padding:10px 20px;
+	border: 1px solid gray;
+}
+.form_group{
+	margin-bottom:20px;
+	position:relative;
+}
+.forget{
+	text-decoration:none;
+
+}
+.btn{
+	height:40px;
+	width:100%;
+	border-radius:50px;
+	margin-top:15px;
+	background-color:blue;
+	color:white;
+	font-size:15px;
+	border:none;
+
+}
+.user_sign p{
+	text-align:center;
+	margin:20px;
+	position:relative;
+ 
+ }
+ .user_sign p::before{
+	content:"";
+	background-color:black;
+	width:138px;
+	height:1px;
+	display:inline-block;
+	position:absolute;
+	right:160px;
+	top:8px;
+	
+ }
+  .user_sign p::after{
+	content:"";
+	background-color:black;
+	width:138px;
+	height:1px;
+	display:inline-block;
+	position:absolute;
+	left:160px;
+	top:8px;
+ }
+ .btn1{
+	height:40px;
+	width:100%;
+	border-radius:50px;
+	color:gray;
+	font-size:15px;
+	background-color:white;
+  border:1px solid gray;
+ }
+
+ #pass_show{
+	position:absolute;
+	right:7%;
+	top:23%;
+	color:blue;
+ }
+ .alert{
+	border:1px solid red;
+ }
+ .error_msg{
+	color:red;
+	display:none;
+}
+.invalid-input{
+	display:block!important;
+}
+.error{
+	color:red;
+	display:none; 
+}
+.error2{
+	display:block!important;
+	border:1px solid red;
+	margin:5px;
+	padding:5px;
+}
+
+.page{
+margin:30px;
+}
+
+.linkedin-img{
+width:100px;
+height:auto;
+}
+

@@ -1,0 +1,292 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+
+/*------------------------------
+Container ----------------------*/
+
+
+.container{
+  width:1170px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:10px;
+  padding-right:10px;
+
+}
+
+/*------------------------------
+Flex-container ----------------------*/
+
+
+.flex-container{
+display:flex;
+flex-wrap:wrap; 
+margin-left:-15px;
+margin-right:-15px;
+}
+
+/*------------------------------
+Flex-item-starts ----------------------*/
+
+
+.flex-item-1{
+width:8.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-2{
+width:16.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-3{
+width:25%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-4{
+    width:33.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-item-5{
+width:41.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-6{
+width:50%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-7{
+width:58.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-8{
+width:66.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-9{
+width:75%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-10{
+width:83.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-11{
+width:91.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-12{
+width:100%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+
+
+
+/*------------------------------
+Flex-item-end ----------------------*/
+
+
+
+
+
+
+
+
+
+/* drop-down  in header */
+
+
+.drop-down-account{
+display:flex;
+align-items:center;
+padding-top:10px;
+ padding:6px 10px;
+}
+
+.account{
+font-size:40px;
+}
+
+
+.account i{
+font-size:50px;
+color:gray;
+}
+
+
+
+
+.drop-down-button1{
+border:1px solid blue;
+border-radius:25px;
+color:blue;
+padding:4px 75px 4px 75px;
+background-color:white;
+}
+
+.drop-down-profile{
+padding-left:10px;
+}
+
+.drop-down-button{
+    padding-top: 6px;
+	 padding:0px 10px;
+}
+
+.my-account a{
+text-decoration:none;
+}
+.my-account .no-pay{
+padding-left:6px;
+}
+.my-account i{
+color:orange;
+}
+
+
+
+.manage a{
+text-decoration:none;
+}
+
+.log-out a{
+text-decoration:none;
+color:gray;
+}
+
+
+.my-account{
+margin:10px 0px;
+border-top:1px solid #80808033;
+border-bottom:1px solid #80808033;
+line-height:28px;
+ padding:0px 10px;
+}
+
+.my-account #my-account-1{
+padding-top:10px;
+font-size:18px;
+color:black;
+}
+.manage #my-account-1{
+padding-top:4px;
+font-size:18px;
+color:black;
+}
+
+.manage{
+border-bottom:1px solid #80808033;
+line-height:28px;
+}
+.manage #free-pay{
+color:gray;
+}
+.manage #free-pay-3{
+padding-bottom:6px;
+color:gray;
+}
+
+
+.my-account #free-pay-3{
+padding-bottom:6px;
+color:gray;
+}
+.my-account #free-pay{
+color:gray;
+}
+
+
+
+
+.manage{
+ padding:0px 10px;
+}
+
+
+.log-out{
+ padding:10px 10px;
+} 
+
+ 
+
+
+
+
+
+
+
+	
+
+.drop-list:hover .drop-down{
+	visibility:visible;
+	 opacity:1;
+
+} 
+
+
+
+
+.drop-list{
+	position:relative;
+	  transition:all 0.4s ease; 
+	  z-index:+1;
+}
+ .drop-down-all{
+	 position:absolute;
+	  top: 65px; 
+	 right:-14px;
+	 width:245px;
+	 height:auto;
+	 border:1px solid lightgray; 
+	 background-color:white;
+	 border-radius:5px;
+	 visibility:hidden;
+	 transition:all 0.4s ease;
+ }
+.unique{
+	font-size:13px; 
+	text-decoration:none;
+	color:black;
+	 
+}
+.drop-list{
+	position:relative;
+	  transition:all 0.8s ease; 
+	  z-index:1;
+}
+
+	
+.drop-list:hover .drop-down-all{
+	visibility:visible;
+	 opacity:1;
+	 transform:translateY(-8px);  
+}
+
+
+/* drop-down  ends */
